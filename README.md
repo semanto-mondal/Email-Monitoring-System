@@ -34,10 +34,6 @@ In this project, both spam and phishing emails are categorized as bad emails, wh
 
 The diagram below provides a high-level overview of the workflow:
 
-```mermaid
-graph TD;
-    A[Email Data] --> B[Text Preprocessing];
-    B --> C[Exploratory Data Analysis];
-    C --> D[Topic Modeling];
-    D --> E[Modeling];
-    E --> F[Model Evaluation];
+![image](https://github.com/user-attachments/assets/c3493d23-4bd8-4767-b289-cc5dac5ddac8)
+
+
