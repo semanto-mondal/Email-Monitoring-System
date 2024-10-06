@@ -1,5 +1,5 @@
 # Email-Monitoring-System
-# Email Classification Project: Spam and Phishing Detection
+# Email Monitoring System: To Understand the latent features of good and bad emails. 
 
 ## Problem Statement
 
@@ -35,5 +35,26 @@ In this project, both spam and phishing emails are categorized as bad emails, wh
 The diagram below provides a high-level overview of the workflow:
 
 ![image](https://github.com/user-attachments/assets/c3493d23-4bd8-4767-b289-cc5dac5ddac8)
+
+## Dataset Description
+
+The dataset used for this project is a combination of two different datasets: the IWSPA-AP-2018 (International Workshop on Security and Privacy Analytics - Anti Phishing) dataset and the Enron Spam dataset. 
+
+- **IWSPA-AP Dataset:** Contains phishing emails and authentic emails.
+- **Enron Spam Dataset:** Contains spam and non-spam (legitimate) emails.
+
+Both datasets were originally imbalanced, meaning the number of samples for different target classes varied significantly. To address this issue, we concatenated these two datasets, resulting in a more diverse and balanced dataset better suited for training our machine learning models.
+
+### Dataset Overview
+
+The combined dataset consists of 17,669 entries and includes three features:
+
+| Feature Name     | Data Type | Description                            |
+| ---------------- | --------- | -------------------------------------- |
+| **Email Subject** | Object    | The subject of the email               |
+| **Email Body**    | Object    | The body of the email                  |
+| **Label**         | Integer   | The category of the email (Good or Bad) |
+
+This dataset forms the basis for our text-based email classification models, leveraging the emails' subject and body to categorize them as either good (legitimate) or bad (spam/phishing).
 
 
