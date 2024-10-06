@@ -94,3 +94,15 @@ This section highlights the performance comparison between traditional interpret
 - **Deep Learning Models:** BERT (fine-tuning) outperformed both Bi-directional LSTM and Transformer models in test accuracy, achieving the highest accuracy of 99.5%. However, this came at the cost of significantly longer training time (3494 seconds). On the other hand, Transformers demonstrated excellent validation accuracy and much shorter training time, indicating a strong balance between performance and computational efficiency.
 - **Conclusion:** Natural Language Processing is a very powerful topic in the field of machine learning. Encoder-Decoder-based Deep Learning model with attention mechanisms has made this field more powerful. Based on the analysis it can be concluded that conventional machine learning models such as decision trees, and random forests work fine when the sentence length is comparatively small because these don’t have the self-attention or positional encoding power as a result can’t capture long-term dependency whereas model like transformer, LSTM or BERT performs file for longer text sequences due to their ability to capture long term dependency as well as capability of understanding semantic representation of the textual data. 
 
+## WORKFLOW OF GUI
+![image](https://github.com/user-attachments/assets/1a7e6d52-dfdd-443e-8df6-582ecb94f481)
+
+##TESTING MODEL PERFORMANCE USING GUI
+![image](https://github.com/user-attachments/assets/1260f21d-d577-482c-9bcc-f0866714c948)
+
+
+![image](https://github.com/user-attachments/assets/85fcc069-3294-4d1f-bfe1-f85082f257cb)
+
+
+## Contributors
+[Rajib Chandra Ghosh](https://github.com/rajibdave00)
